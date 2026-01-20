@@ -1,5 +1,6 @@
 /* Soluzione qui */
 @media screen and (min-width: 768px) {
+
   #topbar {
     justify-content: left;
   }
@@ -16,7 +17,7 @@
     font-size: 1.8rem;
   }
 
-  .quick-notes > ul {
+  .quick-notes>ul {
     display: flex;
     flex-wrap: wrap;
   }
@@ -33,8 +34,42 @@
     display: block;
   }
 
-  .clearfix > img {
+  .clearfix>img {
     float: left;
     margin: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+
+  .recipe-name {
+    font-size: 2.5rem;
+  }
+  
+  .quick-notes>ul  {
+    display: block;
+  }
+
+  .recipe-card {
+    display: flex;
+  }
+
+  .recipe-video {
+    width: 70%;
+    max-height: 420px;
+  }
+
+  .recipe-info {
+    width: 30%;
+  }
+
+  .social-networks .label{
+    display: inline;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
   }
 }
